@@ -17,7 +17,8 @@ namespace RelembrandoFuncoesDotNet
 
         static void Main(string[] args) //Quando se utiliza o tipo static você não cria uma instância da sua função
         {
-            Console.WriteLine(SomaNumeros(10,5));
+            int retorno = SomaNumeros(10, 5);
+            Console.WriteLine(retorno);
             PrintaNome("Lucas");
             Console.Read();
         }
